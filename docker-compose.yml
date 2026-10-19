@@ -1,0 +1,6 @@
+services:
+  opencode-htsulait:
+    build: .
+    ports:
+      - '9020:4096'
+    restart: unless-stopped
